@@ -125,7 +125,7 @@ function addMapping(values, icon) {
 }
 ICON_MAP.get(0);
 function getIconUrl(iconCode) {
-  return `svgs/${ICON_MAP.get(iconCode)}.svg`;
+  return `${ICON_MAP.get(iconCode)}.svg`;
 }
 
 // icon mapping ends here
