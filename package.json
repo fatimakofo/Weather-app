@@ -1,6 +1,14 @@
 {
-  "dependencies": {
-    "@vercel/speed-insights": "^1.0.9",
-    "axios": "^1.6.7"
+  "name": "weather-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
   }
 }
